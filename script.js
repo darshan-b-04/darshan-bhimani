@@ -34,6 +34,10 @@ $(document).ready(function () {
 
 
 
+
+
+
+
 // Back to top
 var amountScrolled = 200;
 var amountScrolledNav = 25;
