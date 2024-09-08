@@ -4,9 +4,7 @@
 * {
     
 }
-html {
-    /* scroll-behavior: smooth; */
-}
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -30,16 +28,14 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #161513;
+    /* background-color: #161513; */
+    background-color: #ffffff;
+    
 
 }
 
-.global {
-    background-color: #161513;
 
 
-
-}
  
 .fadein {
     opacity: 0;
@@ -56,7 +52,10 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: #161513;
+    /* background-color: #161513; */
+    color: #161513;
+    background-color: #F0F2F5;
+
     font-family: "Poppins", serif;
     overflow: hidden;
     z-index: 99;
@@ -112,7 +111,7 @@ nav {
 .nav-tab a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: #F0F2F5;
+    color: #545454;
     font-weight: 400;
     font-style: normal;
     display: block;
@@ -185,8 +184,8 @@ nav {
     cursor: pointer;
     border: none;
     padding: 0px 30px;
-    background-color: #F0F2F5;
-    color: #161513;
+    color: #F0F2F5;
+    background-color: #161513;
     border-radius: 25px;
     height: 42px;
     overflow: hidden;
@@ -196,7 +195,7 @@ nav {
     font-size: 14px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    color: #161513;
+    color: #F0F2F5;
 }
 
 
@@ -210,7 +209,8 @@ nav {
     cursor: pointer;
     border: none;
     padding: 0px 30px;
-    background-color: #F0F2F5;
+    background-color: #161513;
+    color: #F0F2F5 !important;
     border-radius: 25px;
     height: 42px;
     overflow: hidden;
@@ -220,7 +220,7 @@ nav {
     font-size: 12px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    color: #161513;
+    /* color: #161513; */
 }
 
 
@@ -232,6 +232,10 @@ nav {
 
 
 /*------------------- First Section Starts --------------------*/
+
+.bg-image {
+    background-color: #F0F2F5;
+}
 .info-section {
     display: flex;
     flex-direction: column;
@@ -249,7 +253,7 @@ nav {
 
 .info-section .info-part {
     text-align: center;
-    color: #F0F2F5;
+    color: #545454;
     font-family: "Bai Jamjuree", sans-serif;
 
 }
@@ -270,29 +274,35 @@ nav {
 }
 
 
-.button-part .get-in-btn {
+.get-in-btn {
     cursor: pointer;
     border: none;
     padding: 0px 30px;
-    background-color: #F0F2F5;
+    background-color: #161513;
     border-radius: 25px;
     height: 42px;
     overflow: hidden;
-}
-
-.button-part .get-in-btn #get-in-btn {
     font-size: 12px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    color: #F0F2F5;
+    transition: all 0.3s ease-in;
+    
+}
+
+.button-part .get-in-btn:hover  {
+    border: 2px solid #161513;
+    background-color: transparent;
     color: #161513;
 }
+
 
 .button-part .view-work-btn {
     cursor: pointer;
     border: none;
     padding: 0px 30px;
     background-color: transparent;
-    border: 2px solid #F0F2F5;
+    border: 2px solid #161513;
     border-radius: 25px;
     height: 42px;
     overflow: hidden;
@@ -302,7 +312,7 @@ nav {
     font-size: 12px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    color: #F0F2F5;
+    color: #161513;
 }
 
 
@@ -326,7 +336,7 @@ nav {
 }
 
 .education-section .education-part {
-    color: #F0F2F5;
+    color: #545454;
     padding-bottom: 30px;
     border-bottom: 1px solid #8f8f8f;
 }
@@ -366,7 +376,7 @@ nav {
 
 
 .experience-section .experience-part {
-    color: #F0F2F5;
+    color: #545454;
     padding-bottom: 30px;
     border-bottom: 1px solid #8f8f8f;
 }
