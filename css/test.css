@@ -1,0 +1,192 @@
+
+nav {
+  padding-top: 20px;
+height:2vw;
+}
+
+
+
+
+.navbar-nav {
+  padding-left: 60px;
+}
+.banner {
+    overflow: hidden;
+    height: 45vw;
+    width: 100%;
+    }
+    
+    .banner {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+    
+    }
+    
+    .banner-images {
+    width: 100%;
+    height: 40vw;
+    }
+    
+    .carousel-caption {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* margin-bottom: 70px; */
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+    from {
+        margin-bottom: 100%;
+    }
+    
+    to {
+        margin-bottom: 0%;
+    }
+    }
+    
+    .carousal-inner {
+    align-items: center;
+    }
+    
+    .head-1 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    }
+    
+    .btn-collection {
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 20px;
+    width: 300px;
+    }
+    
+    .carousel-caption p {
+    font-size: 50px;
+    }
+    
+
+.quality-section {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+/* .quality-heading {
+font-weight: 900;
+font-size: xx-large;
+text-align: center;
+} */
+
+.quality-image-1 {
+width: 100px;
+}
+
+.quality-images img {
+/* margin-top: 20px; */
+}
+
+.quality-content .card {
+margin-top: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.05);
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: larger;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: 0.5s;
+}
+
+/* .quality-content .card:hover {
+transform: scale(1.05);
+} */
+
+.quality-content .card img {
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+}
+
+.quality-content .card {
+margin-bottom: 10px;
+}
+
+.quality-content p {
+margin-top: 10px;
+}
+
+
+
+.shop-section {
+font-family: 'Montserrat', sans-serif;
+margin-top: 100px;
+}
+
+.shop-heading {
+word-spacing: 5px;
+font-size: x-large;
+font-weight: 900;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.shop-section .card {
+aspect-ratio: 9/14;
+overflow: hidden;
+border-radius: 20px;
+display: flex;
+/* align-items: flex-end; */
+justify-content: flex-end;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.05);
+cursor: pointer;
+margin-bottom: 35px;
+}
+
+.shop-section .card img {
+transition: 0.5s;
+}
+
+.shop-section .card:hover img {
+transform: scale(1.15);
+}
+
+.shop-section .card .card-title {
+font-weight: 800;
+text-align: center;
+/* margin-top: 12px; */
+}
+
+.shop-section .card .card-text {
+margin: 0;
+text-align: center;
+}
+
+.shop-section .btn-product {
+color: white;
+background-color: black;
+border-radius: 40px;
+padding: 20px;
+
+}
+
+
+
+.banner-title {
+background-color: #CDF0EA;
+width: 10px;
+height: 50px;
+display: flex;
+justify-content: center;
+font-size: x-large;
+font-weight: lighter;
+align-items: center;
+padding: px;
+}
+
