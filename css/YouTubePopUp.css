@@ -12,7 +12,7 @@
         http://www.opensource.org/licenses/mit-license.php
         http://www.gnu.org/licenses/gpl.html
     Copyright (c) 2016 - Qassim Hassan
-*/
+
 
 .YouTubePopUp-Wrap{
     position:fixed;
@@ -55,7 +55,7 @@
     }
 }
 
-body.logged-in .YouTubePopUp-Wrap{ /* For WordPress */
+body.logged-in .YouTubePopUp-Wrap{ /* For WordPress 
     top:32px;
     z-index:99998;
 }
@@ -154,3 +154,5 @@ body.logged-in .YouTubePopUp-Wrap{ /* For WordPress */
         bottom:262px;
     }
 }
+
+*/
