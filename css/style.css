@@ -79,6 +79,11 @@ main {
   z-index: 5;
 }
 
+
+
+.profile-image  {
+    padding: 70px;  
+}
 .row > * {
   padding-left: 15px;
   padding-right: 15px;
@@ -2298,10 +2303,6 @@ img.left {
 -------------------------------------------------------*/
 .mb-0 {
   margin-bottom: 0 !important;
-}
-
-.mb-5 {
-  margin-bottom: 5px !important;
 }
 
 .mb-10 {
@@ -9177,6 +9178,9 @@ footer.clean-footer.crev:before {
 -----------------------------------------------------------------*/
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 992px) {
+  .portfolio-img{
+    display: none;
+  }
   .md-mb10 {
     margin-bottom: 10px;
   }
