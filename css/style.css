@@ -3491,6 +3491,9 @@ body.loaded {
   top: 40px;
   left: 40px;
 }
+.logo img {
+  width: 62px;
+}
 
 .hamenu .close-menu {
   position: absolute;
